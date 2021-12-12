@@ -1,0 +1,45 @@
+My artifact is from the Software Development Lifecycle course (CS-250) I took in 2020. This project’s name is called Top Five Destinations and it is an application which shows five popular tourist destinations. This artifact was chosen due to its initial simplicity. With the enhancements added, the application becomes more complex and shows my strengths. Originally, when the project ran, it opened a window showing the name and image of 5 popular cities. I enhanced this project by expanding the complexity with the additions of CRUD capabilities and a MongoDB interface. Once everything is finalized and the application is run, the same window will pop up but more options for the user will be available. 
+I have created a database called “location” within MongoDB. This interface will not only store structured data but allow the user to visualize the data in a convenient and secure manner. The use of this interface is possible with authorization methods which ensure the data stays safe and only accessible to a select few. Using MongoDB and Javascript, these enhancements aid in object-oriented programming, portability, and developer agility all while mitigating loss of data. Using MongoDB, CRUD operations are possible so data can be manipulated. The course outcomes this category align with are “[CS-499-01] Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science” and “[CS-499-05] Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources”.
+ This category was the most difficult to implement because there were so many steps to be taken. I needed to create the MongoDB class within Java but also have code written out inside MongoDB itself. After a lot of trial and error, everything started to come together. One thing I realized is that I need to have MongoDB actively running in order to have everything compile smoothly. Another important thing I learned was how vital it is to have all dependencies, libraries, etc in the right spot. The code below were my inputs within the Mongo system to create authentication methods. Users and passwords were created to ensure security measures will be utilized. The pseudocodes below were also used to implement this enhancement and make it executable. 
+db.createUser(
+   {
+      "user": "admin”,
+      "pwd": "cs499",
+      roles: [ "readWrite", "dbLocation" ]
+   }
+)
+
+use locationDB
+db.createUser(
+   {
+      "user": "user",
+      "pwd": "guest",
+      roles: [ "read" ]
+   }
+)
+
+#access Mongo
+use database #destinations
+switched to db Destinations
+db.createCollection()
+
+import mongoClient;
+create public class;
+
+	#Create Mongo client
+MongoClient mongo = new (#get local  host);
+
+#Connect to said database
+	MongoDatabase database = mongo.getDatabase ();
+
+#Create Collection
+database.createCollection ();
+ 
+     #SytemPrint to confirm success
+------
+
+#authorization
+create user;
+pwd;
+roles [];
+
