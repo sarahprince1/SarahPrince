@@ -1,0 +1,21 @@
+My artifact is from the Software Development Lifecycle course (CS-250) I took in 2020. This project’s name is called Top Five Destinations and it is an application which shows
+five popular tourist destinations. This artifact was chosen due to its initial simplicity. With the enhancements added, the application becomes more complex and shows my strengths. Originally, when the project ran, it opened a window showing the name and image of 5 popular cities. I enhanced this project by expanding the complexity with the additions of widgets and CRUD capabilities.
+  With the software engineering and design upgrades incorporated into this project, I demonstrate my ability to apply various techniques and practices into a software application to ensure client/user satisfaction. These improvements also showcase my ability to customize an application in a way that will increase productivity and effectiveness. The specific course outcomes that this component align with are “[CS-499-04] Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals” and “[CS-499-02] Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and context”.
+	Initially, I hoped to utilize a geo map in this application so a map would be available for the user. I have decided to omit this due to running into many syntax errors converting a once Python script into Java. My code for the DropDown menu can be found in the application and shows all destinations within the menu to click on. Also, the CRUD operations go hand-in-hand with Category three’s MongoDB. These additions allow the user to create, read, update, and delete data. Below are the psuedocodes used to implement these enhancements.
+  
+#Drop down menu to sort
+Public class DropDownMenu {
+	String[] options = {“choice”, “choice” …}; #price, distance, etc
+	String sortBy = (String) JOptionPane.showInputDialog(
+		“How would you like to search?” // “Sort By”
+#system will print choice
+
+******
+
+#CRUD capabilities
+createClass();
+	Create();
+	Read();
+	Update();
+	Delete;
+
