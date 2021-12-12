@@ -1,0 +1,13 @@
+My artifact is from the Software Development Lifecycle course (CS-250) I took in 2020. This project’s name is called Top Five Destinations and it is an application which shows five popular tourist destinations. This artifact was chosen due to its initial simplicity. With the enhancements added, the application becomes more complex and shows my strengths. 
+Originally, when the project ran, it opened a window showing the name and image of 5 popular cities. I enhance this project within the second category (data structures/algorithms) by expanding the complexity and implementing a single linked list. In doing so, the user can insert and delete data easier, as well as traverse data forward. By implementing this function, increased memory allocation is possible. The enhancement listed above reflects my ability to problem solve in a systematic and logical way. By utilizing this data structure, I improved my application and met the course objectives I had planned on meeting. The course outcome this specific component aligns to is “[CS-499-03] Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices”. 
+While adding the single linked list code, I did not realize how involved it really was. I had worked with them before but forgot how many important components were needed to make it successful. I needed to research to figure out how to properly implement the many different methods which included insertion, deletion, and traversing the data. It was tedious, but the addition of this data structure helps the program run more smoothly now. The pseudocode below is what I used to execute this enhancement. 
+
+
+
+#SINGLE linked list
+Class Node{
+	public int data;
+	public Node next;
+Public voide displayData(){
+	#Print data
+
